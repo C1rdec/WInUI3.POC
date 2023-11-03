@@ -4,9 +4,10 @@ using WinUI3.POC.Contracts.Services;
 
 namespace WinUI3.POC.ViewModels;
 
-public partial class HelloWorldViewModel : ObservableRecipient
+public partial class HelloWorldViewModel : ObservableObject
 {
-    public string Title => "Hello World";
+    [ObservableProperty]
+    private string _title = "Hello World";
 
     [RelayCommand]
     public void GoBack() => App.GetService<INavigationService>().GoBack();
