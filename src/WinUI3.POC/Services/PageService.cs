@@ -1,7 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
-
 using Microsoft.UI.Xaml.Controls;
-
 using WinUI3.POC.Contracts.Services;
 using WinUI3.POC.ViewModels;
 using WinUI3.POC.Views;

@@ -1,6 +1,5 @@
 ﻿using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
-
 using WinUI3.POC.Activation;
 using WinUI3.POC.Contracts.Services;
 

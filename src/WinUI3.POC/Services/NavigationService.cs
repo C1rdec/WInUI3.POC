@@ -1,8 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
-
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Navigation;
-
 using WinUI3.POC.Contracts.Services;
 using WinUI3.POC.Contracts.ViewModels;
 using WinUI3.POC.Helpers;
